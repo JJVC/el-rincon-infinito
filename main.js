@@ -10,9 +10,11 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
 document.addEventListener('DOMContentLoaded', function () {
+    var navbar = document.querySelector('.navbar');
+
     window.addEventListener('scroll', function () {
-        var navbar = document.querySelector('.navbar');
         var scrollPosition = window.scrollY;
 
         if (scrollPosition > 50) {
@@ -20,5 +22,10 @@ document.addEventListener('DOMContentLoaded', function () {
         } else {
             navbar.classList.remove('fixed-navbar');
         }
+    });
+
+    // Asegura que la barra de navegación esté en la parte superior al cargar la página
+    window.addEventListener('load', function () {
+        navbar.classList.remove('fixed-navbar');
     });
 });
