@@ -86,13 +86,21 @@ footer {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        position: relative;
+        z-index: 1;
     }
 
     .nav-list {
         margin-top: 10px;
+        background-color: #333; /* Cambia el color de fondo de la barra de navegación */
+        width: 100%; /* Asegura que ocupe todo el ancho */
     }
 
     .nav-list li {
         margin: 10px 0;
+    }
+
+    .hero {
+        padding-top: 150px; /* Ajusta el espacio superior en la sección de héroe */
     }
 }
