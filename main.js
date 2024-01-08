@@ -26,6 +26,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Asegura que la barra de navegación esté en la parte superior al cargar la página
     window.addEventListener('load', function () {
-        navbar.classList.remove('fixed-navbar');
+        navbar.classList.add('fixed-navbar');
     });
 });
