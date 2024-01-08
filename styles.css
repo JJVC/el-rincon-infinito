@@ -89,7 +89,10 @@ footer {
 
 @media screen and (max-width: 600px) {
     body{
-        padding-top: 100px; /* Ajuste del espaciado superior para la barra de navegación */
+        padding-top: 130; /* Ajuste del espaciado superior para la barra de navegación */
+    }
+    h1 {
+        font-size: 2em;
     }
     .navbar {
         flex-direction: column;
