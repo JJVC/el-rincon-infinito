@@ -4,6 +4,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     padding-top: 70px; /* Ajuste del espaciado superior para la barra de navegación */
+    padding-bottom: 100px; /* Ajuste del espaciado inferior para el pie de página */
 }
 
 .hero {
@@ -89,7 +90,7 @@ footer {
 
 @media screen and (max-width: 600px) {
     body{
-        padding-top: 130; /* Ajuste del espaciado superior para la barra de navegación */
+        padding-top: 130px; /* Ajuste del espaciado superior para la barra de navegación */
     }
     h1 {
         font-size: 1.5em;
