@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function () {
     var navbar = document.querySelector('.navbar');
 
     window.addEventListener('scroll', function () {
-        var scrollPosition = window.scrollY;s
             navbar.classList.add('fixed-navbar');
     });
 
