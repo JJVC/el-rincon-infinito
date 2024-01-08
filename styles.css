@@ -3,18 +3,15 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f4;
+    padding-top: 70px; /* Ajuste del espaciado superior para la barra de navegación */
 }
 
 .hero {
+    background-image: url('image.jpg'); /* Agrega una imagen de fondo a tu héroe */
+    background-size: cover;
+    color: #fff;
     text-align: center;
     padding: 100px 0;
-    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), 
-                repeating-linear-gradient(45deg, #ccc, #ccc 10px, #666 10px, #666 20px);
-}
-
-h1, p {
-    z-index: 1;
     position: relative;
 }
 
