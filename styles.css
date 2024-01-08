@@ -92,7 +92,7 @@ footer {
         padding-top: 130; /* Ajuste del espaciado superior para la barra de navegación */
     }
     h1 {
-        font-size: 2em;
+        font-size: 1.5em;
     }
     .navbar {
         flex-direction: column;
