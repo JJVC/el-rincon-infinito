@@ -15,13 +15,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var navbar = document.querySelector('.navbar');
 
     window.addEventListener('scroll', function () {
-        var scrollPosition = window.scrollY;
-
-        if (scrollPosition > 50) {
+        var scrollPosition = window.scrollY;s
             navbar.classList.add('fixed-navbar');
-        } else {
-            navbar.classList.remove('fixed-navbar');
-        }
     });
 
     // Asegura que la barra de navegación esté en la parte superior al cargar la página
