@@ -82,12 +82,12 @@ footer {
 
 /* Agrega estilos específicos para dispositivos móviles */
 
+/* Añade estilos específicos para dispositivos móviles */
+
 @media screen and (max-width: 600px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
-        position: relative;
-        z-index: 1;
     }
 
     .nav-list {
@@ -101,6 +101,7 @@ footer {
     }
 
     .hero {
-        padding-top: 150px; /* Ajusta el espacio superior en la sección de héroe */
+        padding-top: 70px; /* Ajusta el espacio superior en la sección de héroe */
+        background-position: top; /* Asegura que la imagen de fondo se posicione en la parte superior */
     }
 }
