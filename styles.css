@@ -110,6 +110,12 @@ footer {
         padding-top: 70px;
         background-position: top;
     }
+
+    /* Nuevas reglas para hacer el menú más pequeño */
+    .nav-list a {
+        font-size: 14px;
+        padding: 8px;
+    }
 }
 
 /* Nueva regla para anclar la barra de navegación al hacer scroll */
