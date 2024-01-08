@@ -58,9 +58,9 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed; /* Cambiado a fixed para fijar la barra de navegación en la parte superior */
+    position: relative; /* Posicionamiento relativo para dispositivos móviles */
     width: 100%;
-    z-index: 1000; /* Asegura que la barra de navegación esté encima de otros elementos */
+    z-index: 1000; /* Z-index para estar encima de otros elementos */
 }
 
 .logo {
@@ -91,13 +91,12 @@ footer {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
-        position: relative; /* Restaura el posicionamiento relativo para dispositivos móviles */
     }
 
     .nav-list {
         margin-top: 10px;
-        background-color: #333; /* Cambia el color de fondo de la barra de navegación */
-        width: 100%; /* Asegura que ocupe todo el ancho */
+        background-color: #333;
+        width: 100%;
     }
 
     .nav-list li {
@@ -105,7 +104,14 @@ footer {
     }
 
     .hero {
-        padding-top: 70px; /* Ajusta el espacio superior en la sección de héroe */
-        background-position: top; /* Asegura que la imagen de fondo se posicione en la parte superior */
+        padding-top: 70px;
+        background-position: top;
     }
+}
+
+/* Nueva regla para anclar la barra de navegación al hacer scroll */
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
