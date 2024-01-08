@@ -80,8 +80,19 @@ footer {
     font-weight: bold;
 }
 
-/* Ajusta el espaciado del contenido principal para dar espacio al menú */
+/* Agrega estilos específicos para dispositivos móviles */
 
-body {
-    padding-top: 70px;
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-list {
+        margin-top: 10px;
+    }
+
+    .nav-list li {
+        margin: 10px 0;
+    }
 }
