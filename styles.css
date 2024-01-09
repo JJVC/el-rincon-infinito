@@ -8,8 +8,9 @@ body {
 }
 
 .hero {
-    background-image: url('image.jpg'); /* Agrega una imagen de fondo a tu héroe */
+    background-image: url('image.jpeg'); /* Agrega una imagen de fondo a tu héroe */
     background-size: cover;
+    background-position: top center; /* Posición central por defecto */
     color: #fff;
     text-align: center;
     padding: 100px 0;
@@ -19,6 +20,7 @@ body {
 .hero-content {
     max-width: 800px;
     margin: 0 auto;
+    padding-top: 15%;
 }
 
 h1 {
