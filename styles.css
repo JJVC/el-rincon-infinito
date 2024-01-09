@@ -91,6 +91,10 @@ footer {
     font-weight: bold;
 }
 
+.WA {
+    max-width: 30px;
+    max-height: 30px;
+}
 /* Agrega estilos específicos para dispositivos móviles */
 
 @media screen and (max-width: 350px) {
