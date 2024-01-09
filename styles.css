@@ -100,7 +100,7 @@ footer {
 
 @media screen and (max-width: 650px) {
     body{
-        padding-top: 80px; /* Ajuste del espaciado superior para la barra de navegación */
+        padding-top: 40px; /* Ajuste del espaciado superior para la barra de navegación */
     }
     h1 {
         font-size: 1em;
