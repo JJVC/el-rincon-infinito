@@ -69,6 +69,10 @@ footer {
     font-size: 1.5em;
 }
 
+.menu-icon {
+    display: none;
+}
+
 .nav-list {
     list-style: none;
     display: flex;
@@ -88,9 +92,9 @@ footer {
 
 /* Añade estilos específicos para dispositivos móviles */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     body{
-        padding-top: 130px; /* Ajuste del espaciado superior para la barra de navegación */
+        padding-top: 80px; /* Ajuste del espaciado superior para la barra de navegación */
     }
     h1 {
         font-size: 1.5em;
@@ -121,6 +125,39 @@ footer {
         padding: 8px;
     }
 }
+
+/* Estilos específicos para dispositivos móviles */
+@media screen and (max-width: 860px) {
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        text-align: center;
+    }
+
+    .nav-list.show {
+        display: flex;
+    }
+
+    .nav-list li {
+        margin: 15px 0;
+    }
+
+    .menu-icon {
+        display: block;
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+
+    footer, .navbar{
+        padding: 5px;
+    }
+}
+
 
 /* Nueva regla para anclar la barra de navegación al hacer scroll */
 .fixed-navbar {

@@ -23,3 +23,10 @@ document.addEventListener('DOMContentLoaded', function () {
         navbar.classList.add('fixed-navbar');
     });
 });
+
+function toggleMenu() {
+    var navList = document.querySelector('.nav-list');
+    if (window.innerWidth <= 768) { // Agregamos una comprobación del ancho de la pantalla
+        navList.classList.toggle('show');
+    }
+}
