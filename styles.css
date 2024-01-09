@@ -90,6 +90,12 @@ footer {
 
 /* Agrega estilos específicos para dispositivos móviles */
 
+@media screen and (max-width: 350px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
 /* Añade estilos específicos para dispositivos móviles */
 
 @media screen and (max-width: 650px) {
@@ -97,11 +103,10 @@ footer {
         padding-top: 80px; /* Ajuste del espaciado superior para la barra de navegación */
     }
     h1 {
-        font-size: 1.5em;
+        font-size: 1em;
     }
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
+    footer, .navbar{
+        padding: 1px;
     }
 
     .nav-list {
