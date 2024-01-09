@@ -98,7 +98,7 @@ footer {
 }
 /* Añade estilos específicos para dispositivos móviles */
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 670px) {
     body{
         padding-top: 40px; /* Ajuste del espaciado superior para la barra de navegación */
     }
@@ -156,6 +156,7 @@ footer {
         display: block;
         font-size: 1.5em;
         cursor: pointer;
+        padding-right: 5%;
     }
 
     footer, .navbar{
